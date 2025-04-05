@@ -7,7 +7,6 @@ cursor = conn.cursor()
 #Chat GPT creatred 
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS customers(
-    id INTIGER PRIMARY KEY AUTOINCRIMENT,
     name TEXT NOT NULL,
     birthday TEXT,
     email TEXT,
